@@ -32,7 +32,7 @@ public class CourseService {
         courseRepository.save(course);
     }
 
-    public void updateCourse(String id, Course course) {
+    public void updateCourse(Course course) {
         courseRepository.save(course);
     }
 
